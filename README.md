@@ -33,9 +33,9 @@ npm install para instalar todas las dependencias.
 ```
 
 ### 3. Qué tendrá cada archivo:
-- `main.jsx, app.css, index.css e index.html` se mantendrán sin cambios
-- `components/button.jsx`: Será el botón que hará que cambie el estado de `light` a `dark`
-- `pages`: dentro estará home, projects y myJob. En cada una renderizarás lo que quieras pero que se diferencien entre ellas. Por ejemplo podemos poner `<h1>Esta es la página home</h1>`, `<h1>Esta es la página profile</h1>` , `<h1>Esta es la página MyJob</h1>`.
+- `main.jsx, app.css, index.css e index.html` se mantendrán sin cambios OK
+- `components/button.jsx`: Será el botón que hará que cambie el estado de `light` a `dark` OK
+- `pages`: dentro estará home, projects y myJob. En cada una renderizarás lo que quieras pero que se diferencien entre ellas. Por ejemplo podemos poner `<h1>Esta es la página home</h1>`, `<h1>Esta es la página profile</h1>` , `<h1>Esta es la página MyJob</h1>`. OK
 
 En todas las páginas debe aparecer el botón para cambiar. Decide si va en cada una o hay otra manera de ponerla para todas.
 - `routes/RoutesApp`: Irán nuestras rutas. Puedes hacerlas con:

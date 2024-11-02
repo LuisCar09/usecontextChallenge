@@ -9,7 +9,7 @@ const Header = ()=> {
         <header className={themeColor ? 'light' : 'dark'}>
             <nav>
                 <Link to={'/'} >Home</Link>
-                <Link to={'/MyJob'}>My Job</Link>
+                <Link to={'/MyJob'}>MyJob</Link>
                 <Link to={'/profile'} >Profile</Link>
             </nav>
         </header>

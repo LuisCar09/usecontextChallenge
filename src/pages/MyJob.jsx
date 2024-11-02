@@ -4,7 +4,7 @@ const MyJob = () => {
     const {themeColor} = useTheme()
     return(
         <section className={`App  ${themeColor ? "light" : "dark"}`}>
-            <h1>Bienvenidos a la MyJob</h1>
+            <h1>Welcome to MyJob</h1>
             <Button />
         </section>
     )

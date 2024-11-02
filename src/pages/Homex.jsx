@@ -6,7 +6,7 @@ const Home = () => {
     
     return(
         <section className={`App  ${themeColor ? "light" : "dark"}`}>
-            <h1>Bienvenidos a la Super Home!</h1>
+            <h1>Welcome to Super Home!</h1>
             <Button  />
         </section>
     )
